@@ -52,11 +52,12 @@ It prints per-paragraph counts of banned words, "not X but Y" frames, -ing rider
 openers, dashes, overlong sentences and runs of same-length sentences. It never outputs an AI
 probability; the counts tell the editor where to read first.
 
-For a model-based detector, the ICLR'24 detector of
-[YuchuanTian/AIGC_text_detector](https://github.com/YuchuanTian/AIGC_text_detector) and the offline
-toolbox [Gx664/AIGC](https://github.com/Gx664/AIGC) can be run on a local copy of the text. This
-skill does not call them and does not optimize against them; detector scores drift across versions
-and are not the target.
+For a model-based score, `scripts/model_detect.py` runs the ICLR'24 detector of
+[YuchuanTian/AIGC_text_detector](https://github.com/YuchuanTian/AIGC_text_detector) offline (one-time
+500 MB download from Hugging Face; needs torch and transformers) and reports a token-weighted P(AI)
+per paragraph and for the document, with `--calibrate` scoring two control texts. The offline toolbox
+[Gx664/AIGC](https://github.com/Gx664/AIGC) is another option. The skill never optimizes against these
+scores: they drift across detector versions, and genuine top-journal paragraphs score as AI.
 
 ## Add a paper to the corpus
 
@@ -78,6 +79,7 @@ references/latex-rules.md      protected spans and safe mechanics for .tex
 references/distill-protocol.md how to add a paper
 references/examples.md         before / after pairs
 scripts/detect_tells.py        offline pattern counter
+scripts/model_detect.py        optional offline model detector (RoBERTa, ICLR'24)
 scripts/extract_pdf_text.py    PDF to text
 ```
 
