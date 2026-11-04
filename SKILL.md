@@ -12,7 +12,7 @@ description: |
   "econ-prose", "蒸馏这篇论文的风格", "add this paper to the corpus".
 license: MIT
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
   author: Xi Chen (veleskaaar)
   lineage: blader/humanizer, hardikpandya/stop-slop, AIScientists-Dev/academic-humanizer, Nanako0129/sepia, alchaincyf/nuwa-skill
 ---

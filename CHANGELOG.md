@@ -11,3 +11,7 @@
 
 - scripts/model_detect.py: optional offline model-based detector with calibration controls.
 - detect_tells.py: summary line under --all.
+
+## 0.1.2 (2026-11-03)
+
+- style-corpus §0: how the corpus writes abstracts (length, no running example, contribution-first, results as declaratives).

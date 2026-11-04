@@ -10,6 +10,61 @@ Martin; CD15 Caplin and Dean; CM15 Caplin and Martin; CLR20 Chambers, Liu and Re
 Enke, Graeber and Ortoleva; EG23 Enke and Graeber; EGOY24 Enke, Graeber, Oprea and Yang; DM16 Dean
 and Martin; ENKE-R Enke's review of the cognitive turn.
 
+## 0. Abstracts
+
+Measured on the corpus: 52 to 194 words; theory papers 52 to 130 (CLR20 52, CM15 63, CD15 69, DM16
+75, CDM11 90, AF00 about 130, DEGO26 165); empirical and review papers 140 to 194.
+
+**0.1 No running example and no story.** None of the eleven abstracts mentions the paper's
+example (jurors, red balls, oil drilling, wine). Abstracts stay at the level of the model's objects:
+"people who are uncertain how to value objects or actions" (DEGO26), "a set of choices" (DM16),
+"choices made under various forms of costly information acquisition" (CLR20).
+
+**0.2 First sentence: the contribution, or one general fact.**
+- "We develop a model of reference dependence based on the idea that reference points provide
+  comparative information to people who are uncertain how to value objects or actions." (DEGO26)
+- "We provide revealed preference characterizations for choices made under various forms of costly
+  information acquisition." (CLR20)
+- "We introduce a new measure of how close a set of choices are to satisfying the observable
+  implications of rationality and apply it to..." (DM16)
+- "This paper explores the link between boundedly rational behaviour and incomplete contracts." (AF00)
+- "Apparently mistaken decisions are ubiquitous." (CD15) / "Many everyday decisions are made without
+  full examination of all available options, and as a result, the best available option may be
+  missed." (CDM11)
+
+**0.3 Second sentence: the mechanism or the modeling device in one line.**
+- "When people are uncertain how much they value an option, they may still be able to tell whether
+  it is better or worse than a reference point on each dimension, thus providing information." (DEGO26)
+- "The bounded rationality of the agents in our world is embodied in a constraint that the contracts
+  they write must be algorithmic in nature." (AF00)
+- "The observable signature of this standard model is the impossibility of raising utility by
+  switching wholesale from one action to another." (CM15)
+
+**0.4 Then results, as declaratives with "we show / we find / the model predicts", often a list.**
+- "In a Bayesian framework, value uncertainty and comparative information generate regularities such
+  as thinking in gain-loss categories; income targeting and bunching; ..." (DEGO26)
+- "We find that many decisions can be understood using the satisficing model of Simon [1955]: most
+  subjects search sequentially, stopping when..." (CDM11)
+- "The model predicts that reference effects are most pronounced when value uncertainty is high and
+  the reference point well-known." (DEGO26)
+- "Unlike existing measures of rationality, it responds to both the number and severity of revealed
+  preference violations." (DM16)
+
+**0.5 Then one extension or application sentence, and stop.**
+- "We then develop a theory of endogenous reference points based on which option is most informative
+  for choice by reducing value uncertainty. This yields several novel predictions, including..."
+  (DEGO26)
+- "We provide applications to robustness, to the recovery of utility from choice data and to model
+  classification." (CM15)
+- "We also extensively discuss some recent literature directly related to the results reported
+  here." (AF00)
+
+**0.6 What abstracts never do.** No question except CD15's one; no "This paper asks"; no motivation
+paragraph; no example numbers (EGOY24's 93% is a dataset result); no technical side conditions
+(log-concavity, intermediate weights); no roadmap; no sentence about limitations beyond one clause
+("We discuss both its limits", EGOY24). Technical terms are used without apology (Bayesian,
+revealed preference, posterior, garbling, nonseparable).
+
 ## 1. Opening moves
 
 **1.1 The first sentence is a flat, general, uncited declarative.** No hedge, no citation, no
