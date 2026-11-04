@@ -146,7 +146,10 @@ def main() -> int:
     if args.json:
         print(json.dumps({"paragraphs": len(results), "totals": totals, "flagged": flagged}, indent=1))
         return 0
-    print(f"{args.file}: {len(results)} paragraphs scanned, {len(flagged)} flagged (weighted hits >= {args.min_hits})")
+    if args.all:
+        print(f"{args.file}: {len(results)} paragraphs scanned, all shown")
+    else:
+        print(f"{args.file}: {len(results)} paragraphs scanned, {len(flagged)} flagged (weighted hits >= {args.min_hits})")
     print("totals: " + ", ".join(f"{k}={v}" for k, v in totals.items()))
     print("note: counts point at paragraphs to read; they are not verdicts (see references/preserve.md)\n")
     for i, r in enumerate(flagged, 1):
